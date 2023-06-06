@@ -145,6 +145,17 @@ Retrieves a <b>SUBSYSTEM_INFORMATION_TYPE</b> value indicating the subsystem typ
 
 </td>
 </tr>
+ <tr>
+<td width="40%"><a id="ProcessTelemetryIdInformation "></a><a id="processsubsysteminformation"></a><a id="PROCESSSUBSYSTEMINFORMATION"></a><dl>
+<dt><b>ProcessSubsystemInformation</b></dt>
+<dt>64</dt>
+</dl>
+</td>
+<td width="60%">
+Retrieves a <a href="/windows-hardware/drivers/ddi/content/ntddk/ne-ntddk-_subsystem_information_type">PROCESS_TELEMETRY_ID_INFORMATION TYPE</a> value which contains metadata about a process.
+
+</td>
+</tr>
 </table>
 
 ### -param ProcessInformation [out]
